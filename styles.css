@@ -1,0 +1,29 @@
+body {
+    display: flex;
+}
+
+.image-container {
+    position: relative;
+    width: 50%;
+}
+
+.background-img {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.logo-body {
+    position: absolute;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}

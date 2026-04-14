@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "NorseFont";
+    src: url('Norsebold.otf');
+}
+
 body {
     display: flex;
 }
@@ -15,15 +20,30 @@ body {
 
 .logo-body {
     position: absolute;
+    top: 250px;
     width: 100%;
-    background: black;
-    opacity: 0.6;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 160px;
+}
+
+.logo-text {
+    font-family: 'NorseFont', sans-serif;
+    font-size: 100px;
+    color: white;
+}
+
+.footer-credit {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
 }

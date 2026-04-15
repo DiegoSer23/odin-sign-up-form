@@ -12,6 +12,12 @@ body {
     width: 50%;
 }
 
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .background-img {
     position: absolute;
     width: 100%;
@@ -46,4 +52,16 @@ body {
     width: 100%;
     text-align: center;
     color: white;
+}
+
+.header-text {
+    background-color: #F2F2F2;
+}
+
+.text-motivation {
+    padding: 150px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    font-size: 24px;
+    font-weight: bold;
 }
